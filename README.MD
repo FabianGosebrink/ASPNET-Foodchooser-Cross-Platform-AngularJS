@@ -54,6 +54,7 @@ With <pre>gulp build:all</pre> you can build all variations the repository bring
 </pre>
 ```
 
+
 #Screenshots
 
 ## Cordova-Project in Visual Studio
