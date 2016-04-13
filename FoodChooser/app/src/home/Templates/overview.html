@@ -1,0 +1,17 @@
+﻿<div ng-include="'src/layout/navigation.html'"></div>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="centered">
+            <h1 ng-show="vm.RandomFood">{{vm.RandomFood.ItemName}}</h1>
+            <h1 ng-show="vm.ErrorMessage">{{vm.ErrorMessage}}</h1>
+            <h1 ng-show="!vm.RandomFood && !vm.ErrorMessage">Getting your food suggestions<br />Please wait...</h1>
+            <button ng-show="vm.RandomFood" type="button" class="btn btn-link" data-ng-click="vm.getRandomFood()">Get new suggestion</button>
+            <button ng-show="vm.RandomFood" type="button" class="btn btn-link" data-ng-click="vm.getRecipesWithGoogle()">Google for recipes</button>
+            <button ng-show="vm.RandomFood" type="button" class="btn btn-link" data-ng-click="vm.getRecipesWithBing()">Bing for recipes</button>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->

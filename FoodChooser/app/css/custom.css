@@ -1,0 +1,139 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html{
+	/* This image will be displayed fullscreen */
+	background:url('../img/bg2.jpg') no-repeat center center;
+
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+
+	/* The Magic */
+	background-size:cover;
+}
+ 
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: transparent;
+	/* Workaround for some mobile browsers */
+	min-height:100%;
+	  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+/*
+	.full {
+	
+        background: url('../img/bg2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+.full {
+	
+	background-image: url('../img/bg2.jpg');
+
+        background-position: center;
+        background-repeat: no-repeat;
+       background-size:100% auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        height:100%;
+}*/
+
+.container .row {
+    color: whitesmoke;
+}
+
+.container .row jumboheadline{
+    font-size: 7em;
+}
+
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.navbar {
+   background-color: #141414;
+   background: #141414;
+   border-color: transparent;
+   color: whitesmoke;
+}
+
+.navbar li { color: lightgray; } 
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.list-group-item{
+    color: black;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+    color: whitesmoke;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    
+    background: #BABABA;
+    color: #666;
+    text-align: center;
+    
+    font: 20px Arial, sans-serif;
+}

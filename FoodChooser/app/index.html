@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--disable caching in IE-->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <title>FoodChooser</title>
+
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-ng-app="FoodChooserApp">
+
+    <div ui-view></div>
+
+    <script src="cordova.js"></script>
+    <!-- inject:js -->
+    <script src="src/application.js"></script>
+    <script src="src/home/home.module.js"></script>
+    <script src="src/home/home.routes.js"></script>
+    <script src="src/home/Controller/home.controller.js"></script>
+
+    <script src="src/common/common.module.js"></script>
+    <script src="src/common/services/HttpInterceptor.js"></script>
+    <script src="src/common/services/storageService.js"></script>
+    <script src="src/common/services/currentUser.js"></script>
+
+    <script src="src/layout/navigationController.js"></script>
+
+    <script src="src/lists/lists.module.js"></script>
+    <script src="src/lists/lists.routes.js"></script>
+    <script src="src/account/account.module.js"></script>
+    <script src="src/account/account.routes.js"></script>
+    <script src="src/account/services/authenticationService.js"></script>
+
+
+    <script src="src/account/controller/accountController.js"></script>
+    <script src="src/lists/Services/list.dataService.js"></script>
+    <script src="src/lists/Services/food.dataService.js"></script>
+    <script src="src/lists/Controller/lists.controller.js"></script>
+    <script src="src/lists/Controller/listDetails.controller.js"></script>
+
+    <script src="src/models/foodItem.js"></script>
+    <script src="src/models/foodList.js"></script>
+    <script src="src/models/loginUser.js"></script>
+    <script src="src/models/registerUser.js"></script>
+    <!-- endinject -->
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+﻿<div ng-include="'src/layout/navigation.html'"></div>
+
+<div class="container">
+    <div class="alert alert-success" data-ng-show="vm.successMessage">
+        <strong>Success!</strong> {{vm.successMessage}}
+    </div>
+
+    <div class="alert alert-danger" data-ng-show="vm.errorMessage">
+        <strong>Error!</strong> {{vm.errorMessage}}
+    </div>
+
+    <form class="form-signin" data-ng-submit="vm.register()">
+        <h2 class="form-signin-heading">Please sign up</h2>
+
+        <input type="test" id="username" class="form-control" 
+               data-ng-model="vm.registerUser.Username" placeholder="Username" required autofocus>
+
+        <input type="email" id="inputEmail"
+               data-ng-model="vm.registerUser.Email" class="form-control" placeholder="Email address" required>
+
+        <input type="password" id="inputPassword1"
+               data-ng-model="vm.registerUser.Password" class="form-control" placeholder="Password" required>
+
+        <input type="password" id="inputPassword2" 
+               data-ng-model="vm.registerUser.ConfirmPassword" class="form-control" placeholder="Confirm Password" required>
+        <p>
+            <a href="#/login">Already have an account?</a><br />
+        </p>
+        <button class="btn btn-lg btn-primary btn-block" data-ng-disabled="vm.working" type="submit">Sign up</button>
+    </form>
+
+</div> <!-- /container -->
