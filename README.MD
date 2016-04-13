@@ -26,7 +26,7 @@ This is done with
 
 Feel free to add gulp tasks as you want :)
 
-##This is the Angular 1 Version of the Foodchooser-Example. Find the Angular 2 Version here: [Angular 2 Version](# "FoodChooser Angular2")
+##This is the Angular 1 Version of the Foodchooser-Example. Find the Angular 2 Version here: [Angular 2 Version](https://github.com/FabianGosebrink/ASPNET-Foodchooser-Cross-Platform-Angular2 "FoodChooser Angular2")
 
 Type in <pre>gulp</pre> to get a ist of all the tasks available
 
