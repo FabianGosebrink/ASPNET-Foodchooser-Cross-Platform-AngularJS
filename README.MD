@@ -1,4 +1,4 @@
-#Foodchooser - ASP.NET WebAPI AngularJs cross platform 
+#Foodchooser - ASP.NET WebAPI AngularJs Cross Platform 
 
 > Get the Android SDK here [Android SDK](https://developer.android.com/sdk/index.html/ "Android SDK")  
 > Get the Windows SDK here [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk "Windows SDK")
