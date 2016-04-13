@@ -34,7 +34,7 @@ Type in <pre>gulp</pre> to get a ist of all the tasks available
 
 ![Alternativtext](_gitAssets/gulpTasks.png "GulpTasks")
 
-With <pre>gulp build:all</pre> you can build all variations the repository brings. A <pre>.dist</pre>-Folder will be created containing all outputs.
+With <pre>gulp build:all</pre> you can build all variations the repository brings. 
 
 ![Alternativtext](_gitAssets/distFolder.png "DistFolder")
 
