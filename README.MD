@@ -51,7 +51,8 @@ With <pre>gulp build:all</pre> you can build all variations the repository bring
         </rule>
       </rules>
     </rewrite>
-</pre>```
+</pre>
+```
 
 #Screenshots
 
